@@ -10,20 +10,24 @@ import hello.core.member.MemoryMemberRepository;
 import hello.core.order.OrderService;
 import hello.core.order.OrderServiceImpl;
 import io.micrometer.observation.ObservationRegistry;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class AppConfig {
+    @Bean
     public MemberService memberService() {
         return new MemberServiceImpl(memberRepository());
     }
-
-    private static MemberRepository memberRepository() {
+    @Bean
+    public static MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
-
+    @Bean
     public OrderService orderService() {
         return new OrderServiceImpl(memberRepository(), disCountPolicy());
     }
-
+    @Bean
     public DiscountPolicy disCountPolicy() {
 //        return new FixDiscountPolicy();
         return new RateDiscountPolicy();
