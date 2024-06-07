@@ -4,6 +4,7 @@
     <list default="true" id="f17e11d2-afb3-4bb2-918a-948cb0aa8dbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/item-service/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/item-service/src/main/java/hello/itemservice/ItemServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mvc1/servlet.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../mvc1/servlet.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,10 +12,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hVdfo9DKAAgqicdYwDkWg6RgV3" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -23,6 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/uniti/OneDrive/바탕 화면/Developer/Back End/Spring/core/mvc1-2/item-service/item-service/build.gradle"
   }
