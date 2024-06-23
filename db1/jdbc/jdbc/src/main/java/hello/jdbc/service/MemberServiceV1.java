@@ -6,6 +6,10 @@ import lombok.RequiredArgsConstructor;
 
 import java.sql.SQLException;
 
+/**
+ * 트랜잭션없는 비즈니스 로직
+ */
+
 @RequiredArgsConstructor
 public class MemberServiceV1 {
 
